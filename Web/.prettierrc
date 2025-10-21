@@ -1,7 +1,4 @@
 {
-    "plugins": ["prettier-plugin-css-order"],
-    "cssDeclarationSorterOrder": "concentric-css",
-    "cssDeclarationSorterKeepOverrides": false,
     "experimentalOperatorPosition": "start",
     "printWidth": 90,
     "tabWidth": 4,
@@ -11,5 +8,12 @@
     "bracketSpacing": false,
     "objectWrap": "collapse",
     "bracketSameLine": false,
-    "endOfLine": "lf"
+    "endOfLine": "lf",
+
+    "plugins": ["prettier-plugin-css-order", "@trivago/prettier-plugin-sort-imports"],
+
+    "cssDeclarationSorterOrder": "concentric-css",
+    "cssDeclarationSorterKeepOverrides": false,
+
+    "importOrderSeparation": true
 }
