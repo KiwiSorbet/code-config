@@ -2,7 +2,7 @@
 .DS_Store
 Thumbs.db
 
-# Npm
+# Package manager
 node_modules/
 
 # Build directory
