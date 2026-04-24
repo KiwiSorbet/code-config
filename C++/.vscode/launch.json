@@ -5,13 +5,14 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/main",
-            "MIMode": "gdb",
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "externalConsole": false,
-            "avoidWindowsConsoleRedirection": false,
+            "args": [],
             "preLaunchTask": "Build debug",
             "postDebugTask": "Clean",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "avoidWindowsConsoleRedirection": false,
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -30,9 +31,13 @@
             "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/main",
-            "cwd": "${workspaceFolder}",
+            "args": [],
             "preLaunchTask": "Build debug",
-            "postDebugTask": "Clean"
+            "postDebugTask": "Clean",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "terminal": "integrated",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
