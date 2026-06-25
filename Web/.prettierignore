@@ -1,9 +1,5 @@
-# Package managers
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+# Lockfile
 bun.lock
-bun.lockb
 
 # Build directory
 build/

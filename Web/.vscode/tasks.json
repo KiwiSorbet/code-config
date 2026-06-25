@@ -4,7 +4,7 @@
         {
             "label": "Format",
             "type": "shell",
-            "command": "npx prettier --write ./",
+            "command": "bun run format",
             "presentation": {"revealProblems": "onProblem", "close": true},
             "group": "none",
             "problemMatcher": []
