@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Format",
+            "label": "Format + Lint",
             "type": "shell",
-            "command": "bun run format",
+            "command": "bun run check",
             "presentation": {"revealProblems": "onProblem", "close": true},
             "group": "none",
             "problemMatcher": []
