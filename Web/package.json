@@ -5,10 +5,11 @@
     "type": "module",
     "scripts": {
         "build": "bun run vite build",
-        "check": "bun run biome check --write",
         "dev": "bun run vite",
         "format": "bun run biome format --write",
-        "lint": "bun run biome lint --write",
+        "format-and-fix": "bun run biome check --write",
+        "lint": "bun run biome lint",
+        "lint:fix": "bun run biome lint --write",
         "preview": "bun run vite preview"
     },
     "dependencies": {},
